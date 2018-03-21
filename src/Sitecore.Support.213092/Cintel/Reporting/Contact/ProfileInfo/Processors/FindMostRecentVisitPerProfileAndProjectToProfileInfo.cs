@@ -38,7 +38,7 @@ namespace Sitecore.Support.Cintel.Reporting.Contact.ProfileInfo.Processors
         {
           SortFields = new List<SortCriterion>
           {
-            new SortCriterion(XConnectFields.Interaction.ContactVisitIndex, SortDirection.Asc)
+            new SortCriterion(XConnectFields.Interaction.ContactVisitIndex, SortDirection.Desc)
           },
           ViewName = viewName
         },
